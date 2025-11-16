@@ -226,4 +226,80 @@
     font-size: 22px;
     padding: 0 8px;
 }
-.
+
+/* Client area */
+.single-tesimonial > p {
+    color: #dbdada;
+    margin-bottom: 18px;
+    padding: 0 20px;
+}
+.client-rating i {
+    color: #ffff;
+    font-size: 18px;
+    margin: 0 1px;
+}
+.single-tesimonial > h4 {
+    color: #ffff;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.single-client {
+    background: #ffff none repeat scroll 0 0;
+    display: table;
+    height: 112px;
+    text-align: center;
+    width: 100%;
+}
+.single-client-container
+.col-md-4:nth-child(1),
+.single-client-container
+.col-md-4:nth-child(2),
+.single-client-container
+.col-md-4:nth-child(3) {
+    margin-bottom: 32px;
+}
+.client-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-client:hover {
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.owl-dots {
+    margin-top: 62px;
+    text-align: center;
+}
+.owl-dot {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 14px;
+    margin: 0 6px;
+    -webkit-transition: all 0.5s ease-out 0s;
+            transition: all 0.5s ease-out 0s;
+    width: 14px;
+    position: relative;
+}
+.owl-dot::after {
+    background: #ffff none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 20px;
+    left: -5px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    position: absolute;
+    top: -5px;
+    -webkit-transition: all 0.1s ease-out 0s;
+            transition: all 0.1s ease-out 0s;
+    width: 20px;
+}
+.owl-dot.active:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.testimonial-carousel {
+    padding-top: 15px;
+}
