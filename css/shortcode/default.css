@@ -1,0 +1,30 @@
+
+html, body {
+    height: 100%;
+}
+body {
+    color: #6f6f6f;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+}
+.clear {
+    clear: both;
+}
+.fix {
+    overflow: hidden;
+}
+.block {
+    display: block;
+}
+.container {
+    width: 1200px;
+}
+.img {
+    max-width: 100%;
+    -wedkit-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+    height: auto;
+}
