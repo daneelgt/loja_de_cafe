@@ -49,7 +49,7 @@
 /* About area */
 .about-text > h3 {
     color: #5e5e5e;
-    font-family: "Cougette, cursive";
+    font-family: 'Courgette', cursive;
     margin-bottom: 21px;
     font-size: 36px;
 }
@@ -102,7 +102,7 @@
 }
 .hover-text > h1 {
     color: #ffff;
-    font-family: "Cougette", cursive;
+    font-family: 'Courgette', cursive;
     left: 50%;
     position: absolute;
     top: 50%;
